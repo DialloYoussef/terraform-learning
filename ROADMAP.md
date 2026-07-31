@@ -9,9 +9,9 @@ Parcours pédagogique, étape par étape. On coche au fur et à mesure.
 - [x] 4. Outputs, interpolation, fonctions intégrées
 
 ## Partie 2 — Aller plus loin en local
-- [ ] 5. `count` / `for_each`
-- [ ] 6. Expressions conditionnelles, `locals`
-- [ ] 7. Structure de fichiers standard + `.gitignore` Terraform
+- [x] 5. `count` / `for_each`
+- [x] 6. Expressions conditionnelles, `locals`
+- [x] 7. Structure de fichiers standard + `.gitignore` Terraform
 
 ## Partie 3 — Transition vers AWS
 - [ ] 8. Provider AWS, authentification (bonnes pratiques credentials)
