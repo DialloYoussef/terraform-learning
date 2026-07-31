@@ -14,8 +14,8 @@ Parcours pédagogique, étape par étape. On coche au fur et à mesure.
 - [x] 7. Structure de fichiers standard + `.gitignore` Terraform
 
 ## Partie 3 — Transition vers AWS
-- [ ] 8. Provider AWS, authentification (bonnes pratiques credentials)
-- [ ] 9. Première ressource AWS simple (ex: S3 bucket)
+- [x] 8. Provider AWS, authentification (bonnes pratiques credentials)
+- [x] 9. Première ressource AWS simple (ex: S3 bucket)
 - [ ] 10. Security Groups, VPC par défaut
 - [ ] 11. Instance EC2 (relire le TP du prof avec les acquis)
 
