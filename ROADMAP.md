@@ -5,7 +5,7 @@ Parcours pédagogique, étape par étape. On coche au fur et à mesure.
 ## Partie 1 — Bases locales (sans cloud)
 - [x] 1. Syntaxe HCL, providers, resources (`local`, `random`)
 - [x] 2. Cycle de vie : `init` → `plan` → `apply` → `destroy`, et `terraform.tfstate`
-- [ ] 3. Variables (`variables.tf`), `terraform.tfvars`, types, valeurs par défaut
+- [x] 3. Variables (`variables.tf`), `terraform.tfvars`, types, valeurs par défaut
 - [ ] 4. Outputs, interpolation, fonctions intégrées
 
 ## Partie 2 — Aller plus loin en local
