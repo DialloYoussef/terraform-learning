@@ -7,6 +7,11 @@ terraform {
   }
 }
 
+locals {
+  prefixe = var.environment == "prod" ? "PROD" : "DEV"
+}
+
+
 resource "local_file" "note" {
   for_each = {
     intro    = "Ceci est l'introduction"
@@ -15,5 +20,5 @@ resource "local_file" "note" {
   }
 
   filename = "${path.module}/note-${each.key}.txt"
-  content  = each.value
+  content  = "[${local.prefixe}] ${each.value}"
 }
