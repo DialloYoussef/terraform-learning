@@ -1,1 +1,0 @@
-Bonjour depuis Terraform ! Version 2
