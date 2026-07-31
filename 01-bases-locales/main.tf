@@ -9,5 +9,5 @@ terraform {
 
 resource "local_file" "hello" {
   filename = "${path.module}/hello.txt"
-    content = "Bonjour depuis Terraform ! Version 2"
+  content = var.message
 }
