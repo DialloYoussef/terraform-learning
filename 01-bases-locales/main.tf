@@ -8,6 +8,8 @@ terraform {
 }
 
 resource "local_file" "hello" {
-  filename = "${path.module}/hello.txt"
-  content = var.message
+  count    = 3
+  filename = "${path.module}/hello-${count.index}.txt"
+  content  = var.message
 }
+
