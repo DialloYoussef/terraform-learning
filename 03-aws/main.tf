@@ -30,3 +30,20 @@ resource "aws_security_group" "learning_sg" {
     Name = "tf-learning-sg"
   }
 }
+
+resource "tls_private_key" "learning_key" {
+  algorithm = "RSA"
+  rsa_bits  = 4096
+}
+
+resource "aws_key_pair" "learning_key" {
+  key_name   = "tf-learning-key"
+  public_key = tls_private_key.learning_key.public_key_openssh
+}
+
+resource "local_file" "private_key" {
+  filename        = "${path.module}/tf-learning-key.pem"
+  content         = tls_private_key.learning_key.private_key_pem
+  file_permission = "0600"
+}
+
