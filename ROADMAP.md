@@ -20,6 +20,6 @@ Parcours pédagogique, étape par étape. On coche au fur et à mesure.
 - [x] 11. Instance EC2 (relire le TP du prof avec les acquis)
 
 ## Partie 4 — Bonnes pratiques
-- [ ] 12. Gestion des secrets (`.tfvars` ignoré par git, `sensitive = true`)
+- [x] 12. Gestion des secrets (`.tfvars` ignoré par git, `sensitive = true`)
 - [ ] 13. Introduction aux modules
 - [ ] 14. Discipline `terraform destroy` systématique
