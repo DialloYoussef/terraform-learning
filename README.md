@@ -25,6 +25,9 @@ Le détail complet, coché au fur et à mesure, est dans [`ROADMAP.md`](ROADMAP.
 | [`01-bases-locales/`](01-bases-locales/README.md) | Provider, resource, cycle de vie (`init`/`plan`/`apply`/`destroy`), state, variables, outputs | Aucun |
 | [`02-aller-plus-loin-en-local/`](02-aller-plus-loin-en-local/README.md) | `count` vs `for_each`, `locals`, expressions conditionnelles, `.gitignore` Terraform | Aucun |
 | [`03-aws/`](03-aws/README.md) | Provider AWS, authentification, S3, Security Group, génération de clé SSH via Terraform, instance EC2 | Compte AWS |
+| [`04-bonnes-pratiques/`](04-bonnes-pratiques/README.md) | Secrets (`sensitive = true`), modules réutilisables, discipline `terraform destroy` | Aucun |
+
+**Parcours complet — les 14 points de la roadmap sont couverts.**
 
 Chaque `README.md` de module est autonome : il explique le vocabulaire utilisé, décortique chaque ligne de code écrite, et documente les erreurs réellement rencontrées en cours de route (avec leur explication) plutôt que de rester purement théorique.
 
