@@ -9,7 +9,7 @@ resource "aws_s3_bucket" "learning" {
 
 resource "aws_security_group" "learning_sg" {
   name        = "tf-learning-sg"
-  description = "Security group pour le module d'apprentissage"
+  description = "Security group pour le module apprentissage"
 
   ingress {
     description = "SSH"
