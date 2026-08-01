@@ -21,5 +21,5 @@ Parcours pédagogique, étape par étape. On coche au fur et à mesure.
 
 ## Partie 4 — Bonnes pratiques
 - [x] 12. Gestion des secrets (`.tfvars` ignoré par git, `sensitive = true`)
-- [ ] 13. Introduction aux modules
+- [x] 13. Introduction aux modules
 - [ ] 14. Discipline `terraform destroy` systématique
